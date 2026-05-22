@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "FamilyDiary",
+    "slug": "familydiary",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F5F0"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "YOUR_API_KEY",
+        "authDomain": "YOUR_PROJECT_ID.firebaseapp.com",
+        "projectId": "YOUR_PROJECT_ID",
+        "storageBucket": "YOUR_PROJECT_ID.firebasestorage.app",
+        "messagingSenderId": "YOUR_MESSAGING_SENDER_ID",
+        "appId": "YOUR_APP_ID"
+      }
+    }
+  }
+}
