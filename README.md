@@ -99,7 +99,7 @@ service cloud.firestore {
 
 ## Step 6: Add your Firebase config to `app.json`
 
-Open `/home/runner/work/FamilyDiary/FamilyDiary/app.json` and replace the placeholder values under `expo.extra.firebase`:
+Open `app.json` and replace the placeholder values under `expo.extra.firebase`:
 
 ```json
 "extra": {
@@ -154,5 +154,5 @@ npm run check   # Build a web export to verify the project bundles
 ## Notes
 
 - This starter app is designed for a family of five and includes five default family member labels
-- You can change the names in `/home/runner/work/FamilyDiary/FamilyDiary/src/constants/familyMembers.js`
+- You can change the names in `src/constants/familyMembers.js`
 - Firebase config values are project-specific, so do not commit private environment overrides unless you mean to share them
